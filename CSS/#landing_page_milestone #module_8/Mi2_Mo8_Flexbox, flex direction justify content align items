@@ -10,12 +10,19 @@
             height: 300px;
             width: 300px;
             border: 3px solid gray;
+            
+        }
+        .container{
+            display: flex;
+            height: 500px;
+            justify-content: center;
+            border: 3px solid rgb(155, 16, 16);
         }
 
     </style>
 </head>
 <body>
-    <h1>kkkk</h1>
+    <h1>jjjj</h1>
     <div class="container">
         <div class="box">Boxv</div>
         <div class="box">Box-2</div>
