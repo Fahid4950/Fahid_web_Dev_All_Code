@@ -19,6 +19,9 @@
             border: 3px solid rgb(155, 16, 16);
         }
 
+        ////////////////////////
+        
+
     </style>
 </head>
 <body>
@@ -27,6 +30,48 @@
         <div class="box">Boxv</div>
         <div class="box">Box-2</div>
         <div class="box">Box-3</div>
+    </div>
+</body>
+</html>
+
+//////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 3px solid gray;
+            
+        }
+        #box-2{
+            flex-grow: 1;
+            order: 1;
+        }
+        #box-1{
+           
+            order: 2;
+        }
+        .container{
+            display: flex;
+            height: 500px;
+            
+            border: 3px solid rgb(155, 16, 16);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>jjjj</h1>
+    <div class="container">
+        <div id="box-1" class="box">Box-1</div>
+        <div id="box-2" class="box">Box-2</div>
+        
     </div>
 </body>
 </html>
